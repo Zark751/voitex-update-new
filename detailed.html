@@ -12,7 +12,7 @@
   <title>detailed-page</title>
   <link rel="shortcut icon" href="./assets/img/favicon.png">
   <link rel="stylesheet" href="./assets/css/plugins.css">
-  <link rel="stylesheet" href="./assets/css/style.css">   
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="assets/css/detailed.css">
   <link rel="stylesheet" href="./assets/css/colors/grape.css">
   <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
@@ -24,63 +24,100 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css"
+  <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
 
 <body class="">
-  <div class="content-wrapper">
+  <div class="content-wrapper detailed-wrapper">
     <header class="position-absolute w-100">
 
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
             <div class="navbar-brand w-100">
                 <a href="./index.html">
-                    <img src="./assets/img/voitex-images/logo-1.svg" srcset="./assets/img/voitex-images/logo-1.svg" alt="" />
+                    <img src="./assets/img/voitex-images/logo-1.svg"
+                        srcset="./assets/img/voitex-images/logo-1.svg" alt="" />
                 </a>
             </div>
             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                 <div class="offcanvas-header d-lg-none">
-                    <h3 class="text-white fs-30 mb-0">voitex</h3>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <a href="./index.html">
+                        <img src="./assets/img/voitex-images/logo-1.svg"
+                            srcset="./assets/img/voitex-images/logo-1.svg" alt="" />
+                    </a>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Solutions</a>
+                            <a class="nav-link dropdown-toggle font-500" href="#" data-bs-toggle="dropdown">Solutions</a>
                             <ul class="dropdown-menu">
-                                <li class="dropdown-item"><a class="dropdown-link" href="./index.html"><img src="./assets/img/voitex-images/hotline-image-navbar.png" alt=""> Hotline</a></li>
-                                <li class="dropdown-item"><a class="dropdown-link" href="./landing-pbx.html"><img src="./assets/img/voitex-images/pbx-image-header.png" alt=""> PBX</a></li>
-                                <li class="dropdown-item"><a class="dropdown-link" href="./Landingpage-sms.html"> <img src="./assets/img/voitex-images/sms-image-navbar.png" alt="">   SMS</a></li>
-                                <li class="dropdown-item"><a class="dropdown-link" href="Landingpage-API.html"><img src="./assets/img/voitex-images/api-image-navbar.png" alt="">  API</a></li>
+                                <li class="dropdown-item font-500"><a class="dropdown-link" href="./index.html"><img
+                                            src="./assets/img/voitex-images/hotline-image-navbar.png" alt="">
+                                        Hotline</a></li>
+                                <li class="dropdown-item font-500"><a class="dropdown-link"
+                                        href="./landing-pbx.html"><img
+                                            src="./assets/img/voitex-images/pbx-image-header.png" alt="">
+                                        PBX</a></li>
+                                <li class="dropdown-item font-500"><a class="dropdown-link"
+                                        href="./Landingpage-sms.html"> <img
+                                            src="./assets/img/voitex-images/sms-image-navbar.png" alt="">
+                                        SMS</a></li>
+                                <li class="dropdown-item font-500"><a class="dropdown-link"
+                                        href="Landingpage-API.html"><img
+                                            src="./assets/img/voitex-images/api-image-navbar.png" alt="">
+                                        API</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Resources</a>
-                          <ul class="dropdown-menu">
-                              <li class="dropdown-item"><a class="dropdown-link" href="voitex-blogs-main-page.html"><img src="./assets/img/voitex-images/blog-image-navbar.png" alt="">Blogs</a></li>
-                              <li class="dropdown-item"><a class="dropdown-link" href="./main-page.html"> <img src="./assets/img/voitex-images/succes-stories-image-navbar.png" alt="">Success Stories</a></li>
-                              <li class="dropdown-item"><a class="dropdown-link" href="http://docs.voitex.com/"><img src="./assets/img/voitex-images/knowledge-base-image-header.png" alt="">Knowledge Base</a></li>
-                          </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link" href="" >Pricing</a>
-                    </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="About-Us.html" >About</a>
+                            <a class="nav-link dropdown-toggle font-500" href="#" data-bs-toggle="dropdown">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item font-500"><a class="dropdown-link"
+                                        href="voitex-blogs-main-page.html"><img
+                                            src="./assets/img/voitex-images/blog-image-navbar.png"
+                                            alt="">Blogs</a></li>
+                                <li class="dropdown-item font-500"><a class="dropdown-link" href="./main-page.html"> <img
+                                            src="./assets/img/voitex-images/succes-stories-image-navbar.png"
+                                            alt="">Success Stories</a></li>
+                                <li class="dropdown-item font-500"><a class="dropdown-link" href="http://docs.voitex.com/"><img
+                                            src="./assets/img/voitex-images/knowledge-base-image-header.png"
+                                            alt="">Knowledge Base</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item dropdown dropdown-mega">
-                          <a class="nav-link" href="./Contact-Form.html" >Contact</a>
-                      </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link font-500" href="">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link font-500" href="About-Us.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-mega font-500">
+                            <a class="nav-link font-500" href="./Contact-Form.html">Contact</a>
+                        </li>
                     </ul>
                     <!-- /.navbar-nav -->
                     <div class="offcanvas-footer d-lg-none">
-                        <div>
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item-off">
+                                <a href="Contact-Form.html" class="btn offcanvas-btn" id="transparent-btn">See Demo</a>
+                                <!-- /.social -->
+                            </li>
+                            <li class="nav-item-off login">
+                                <nav>
+                                    <a href="https://portal.voitex.com/login" class="btn offcanvas-btn-2" id="right-btn"></i>Login</a>
+                                </nav>
+                            </li>
+                            <!-- <li class="nav-item d-lg-none nav-item-3">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li> -->
+                        </ul>
+                        <!-- <div>
                             <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
                             <br /> 00 (123) 456 78 90 <br />
                             <nav class="nav social social-white mt-4">
@@ -90,8 +127,8 @@
                                 <a href="#"><i class="uil uil-instagram"></i></a>
                                 <a href="#"><i class="uil uil-youtube"></i></a>
                             </nav>
-                            <!-- /.social -->
-                        </div>
+                       
+                        </div> -->
                     </div>
                     <!-- /.offcanvas-footer -->
                 </div>
@@ -101,12 +138,12 @@
             <div class="navbar-other w-50 d-flex ms-2">
                 <ul class="navbar-nav flex-row align-items-center ms-auto">
                     <li class="nav-item nav-item-1">
-                            <a href="#" class="btn" id="transparent-btn">See Demo</a>
+                        <a href="#" class="btn" id="transparent-btn">See Demo</a>
                         <!-- /.social -->
                     </li>
                     <li class="nav-item login nav-item-2">
                         <nav>
-                            <a href="Contact-Form.html" class="btn" id="right-btn"></i>Login</a>
+                            <a href="https://portal.voitex.com/login" class="btn" id="right-btn"></i>Login</a>
                         </nav>
                     </li>
                     <li class="nav-item d-lg-none nav-item-3">
@@ -119,19 +156,19 @@
         </div>
         <!-- /.container -->
     </nav>
-    <!-- /.navbar -->
+      <!-- /.navbar -->
     </header>
     <!-- /header -->
     <section class="wrapper detailed overflow-hidden">
       <div class="container pt-19  text-center position-relative">
 
         <div class="row position-relative solutions-header">
-          <div class="col-lg-7 col-xxl-6 mx-auto position-relative">
+          <div class="col-lg-7 col-xxl-6 mx-auto position-relative" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor="#example-anchor">
 
             <div>
-              <p class="header-name text-uppercase" data-aos="fade-right" data-aos-duration="1500" >MASOIRES CASE STUDY
+              <p class="header-name text-uppercase">MASOIRES CASE STUDY
               </p>
-              <h1 class="display-1 text-centerfs-64 mb-5 mx-md-10 mx-lg-0"  data-aos="fade-left" data-aos-duration="1500"  >
+              <h1 class="display-1 text-centerfs-64 mb-5 mx-md-10 mx-lg-0 detailed-heading all-text-color">
                 Revolutionizing Course
                 <span class="pink">Organizations with
                   Voitex’s
@@ -147,12 +184,12 @@
         <!-- /.row -->
 
       </div>
-    
+
       <!-- /.container -->
     </section>
     <div class="background-section">
       <div class="container-fluid">
-        <div class="container color-container-detailed"  data-aos="fade-up" data-aos-duration="1500">
+        <div class="container color-container-detailed">
           <div class="row inner-row-detailed">
             <div class="col-lg-2">
               <div class="image-wrapper back-image-detail image-white">
@@ -160,13 +197,17 @@
               </div>
             </div>
             <div class="col-lg-10">
-              <h3 class="Background-heading">Background:</h3>
-              <p class="torah-umesroh">
-                Our client, Masoires, a professional educational program for men before and after marriage in the Chassidish community, faced challenges in providing seamless and flexible phone access to valuable content for their members. Before implementing Voitex’s IVR system, they encountered limitations with other platforms, mainly a lack of customization and flexibility.
+              <h2 class="Background-heading">Background:</h2>
+              <p class="torah-umesroh all-text-color">
+                Our client, Masoires, a professional educational program for men before and after marriage in the
+                Chassidish community, faced challenges in providing seamless and flexible phone access to valuable
+                content for their members. Before implementing Voitex’s IVR system, they encountered limitations with
+                other platforms, mainly a lack of customization and flexibility.
               </p>
-              <p class="torah-umesroh">
-                At Masoires, Yitzchok Binet, the founder, has a deeply personal mission. Having once struggled in his own marriage, professional intervention turned things around for him. Now, he is dedicated to making expert knowledge accessible to the masses through a simple dial-in action.
-
+              <p class="torah-umesroh all-text-color">
+                At Masoires, Yitzchok Binet, the founder, has a deeply personal mission. Having once struggled in his
+                own marriage, professional intervention turned things around for him. Now, he is dedicated to making
+                expert knowledge accessible to the masses through a simple dial-in action.
               </p>
             </div>
           </div>
@@ -174,357 +215,404 @@
       </div>
     </div>
     <div class="challenges">
-        <div class="container">
-            <h2 class="masories-heading" data-aos="fade-down" data-aos-duration="1500"> Challenges</h2>
-            <div class="row ch-row" data-aos="fade-up" data-aos-duration="1500">
-                <div class="col-lg-4">
-                    <h5>1.  Membership Program Setup</h5>
-                    <p>The client needed an advanced membership program capable of recognizing caller IDs and associated credentials through an automated sign-up process. </p>
-                </div>
-                <div class="col-lg-4">
-                    <h5>2.  Content Access Control</h5>
-                    <p>The client needed an automated billing system that could handle monthly memberships, initiate a trial period, and automatically adjust prices after the initial month.</p>
-                </div>
-                <div class="col-lg-4">
-                    <h5>3.  Automated Billing</h5>
-                    <p>Differentiating access levels based on membership plans and caller IDs was crucial, ensuring that each member had personalized access.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="masories-heading all-text-color"> Challenges</h2>
+        <div class="row ch-row">
+          <div class="col-lg-4">
+            <h5 class="all-text-color">1. Membership Program Setup</h5>
+            <p class="torah-umesroh all-text-color">The client needed an advanced membership program capable of
+              recognizing caller IDs and associated credentials through an automated sign-up process. </p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="all-text-color">2. Content Access Control</h5>
+            <p class="torah-umesroh all-text-color">The client needed an automated billing system that could handle
+              monthly memberships, initiate a trial period, and automatically adjust prices after the initial month.</p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="all-text-color">3. Automated Billing</h5>
+            <p class="torah-umesroh all-text-color">Differentiating access levels based on membership plans and caller
+              IDs was crucial, ensuring that each member had personalized access.</p>
+          </div>
         </div>
+      </div>
     </div>
     <div class="voitex-solutions">
-        <div class="container solutions-container">
-            <h2 data-aos="fade-left" data-aos-duration="1500">Voitex’s Solutions:</h2>
-            <div class="row baseline-heading"data-aos="fade-down" data-aos-duration="1500">
-                <div class="col-lg-3">
-                  <div class="first-row-detailed">
-                    <div class="voitex-image">
-                        <img src="./assets/img/voitex-images/Group.png" class="rocket-image" alt="">
-                    </div>
-                        <h5>Automated <br> Membership
-                            Setup</h5>
-                            <p>Voitex’s IVR system allowed for a fully automated 24/7 membership setup, including recognizing caller IDs associated with credentials. </p>
-                          </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="voitex-image2">
-                        <img src="./assets/img/voitex-images/28-arrow,-cursor,-email,-message,-send,-web.png" class="rocket-image" alt="">
-                    </div>
-                   
-                            <h5>Custom Access <br> Control
-                           </h5>
-                           <p>The system efficiently managed access levels based on caller IDs, ensuring a personalized experience for paid and non-paid members. </p>
-                   
-                </div>
-                <div class="col-lg-3">
-                    <div class="voitex-image3">
-                        <img src="./assets/img/voitex-images/flexibile-billing.png" class="rocket-image" alt="">
-                    </div>
-                        <h5>Flexible Billing
-                            <br> System
-                           </h5>
-                           <p>Voitex’s IVR system facilitated an automated billing process, offering a $1 trial for the first month and adjusting prices automatically afterward. </p>
-                    
-                </div>
-                <div class="col-lg-3">
-                    <div class="voitex-image">
-                        <img src="./assets/img/voitex-images/Layer_1.png" class="rocket-image" alt="">
-                    </div>
-                     
-                            <h5 >Scalability</h5>
-                      
-                        <p class="scalability">Voitex’s IVR system proved scalable, efficiently handling the organization's growth and increasing call volume. </p>
-                    
-                </div>
+      <div class="container solutions-container">
+        <h2>Voitex’s Solutions:</h2>
+        <div class="row baseline-heading">
+          <div class="col-lg-3">
+            <div class="first-row-detailed">
+              <div class="voitex-image">
+                <img src="./assets/img/voitex-images/Group.png" class="rocket-image" alt="">
+              </div>
+              <h5 class="all-text-color">Automated <br> Membership
+                Setup</h5>
+              <p class="torah-umesroh all-text-color">Voitex’s IVR system allowed for a fully automated 24/7 membership
+                setup, including recognizing caller IDs associated with credentials. </p>
             </div>
-        </div>
-    </div>
-<div class="additional-utilization" >
-    <div class="container" data-aos="fade-right" data-aos-duration="1500">
-        <h2>Additional Utilizations</h2>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="utilization">
-                    <h5>1. Self-Test System/Program</h5>
-                <p>The client utilized Voitex’s integration with Google Sheets to create self-assessment questionnaires and provide users with a comprehensive analysis based on their answers.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="utilization">
-                    <h5>2. Segmented Program Progress</h5>
-                <p>Voitex’s system allowed for a day-by-day program where users could pick up where they left off, providing a personalized and efficient learning experience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="utilization">
-                    <h5>3. Unified Caller ID for Chassanim</h5>
-                <p>Ensuring seamless access, Voitex IVR assigns a consistent Caller ID through a secure password system, recognizing them as a unified identity, regardless of the phone in use.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="the-result detailed">
-    <div class="container-fluid">
-      <div class="container result-container">
-        <div class="row">
-          <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1500">
-            <h2 class="result-heading">The Result
-            </h2>   
-            <p class="result-paragraph">The Voitex IVR System has been nothing short of transformative for Chassanim and husbands, surpassing our expectations and playing a pivotal role in fulfilling our organization's mission—to improve and foster a harmonious 'Shalom Bayis' environment. 
-                </p>
-                <p class="result-paragraph">
-                    The tailored and user-friendly experience it offers has empowered Chassanim to sign up, access valuable education whenever it suits them, learn, and grow at their own pace, contributing significantly to the enhancement of their relationships.
-                </p>
           </div>
-          <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1500">
-            <div class="image-wrapper result-image">
-              <img src="./assets/img/voitex-images/Group 1171275643.png" alt="">
+          <div class="col-lg-3">
+            <div class="voitex-image2">
+              <img src="./assets/img/voitex-images/28-arrow,-cursor,-email,-message,-send,-web.png" class="rocket-image"
+                alt="">
+            </div>
+
+            <h5 class="all-text-color">Custom Access <br> Control
+            </h5>
+            <p class="torah-umesroh all-text-color">The system efficiently managed access levels based on caller IDs,
+              ensuring a personalized experience for paid and non-paid members. </p>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="voitex-image3">
+              <img src="./assets/img/voitex-images/flexibile-billing.png" class="rocket-image" alt="">
+            </div>
+            <h5 class="all-text-color">Flexible Billing
+              <br> System
+            </h5>
+            <p class="torah-umesroh all-text-color"> Voitex’s IVR system facilitated an automated billing process,
+              offering a $1 trial for the first month and adjusting prices automatically afterward. </p>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="voitex-image">
+              <img src="./assets/img/voitex-images/Layer_1.png" class="rocket-image" alt="">
+            </div>
+
+            <h5 class="all-text-color">Scalability</h5>
+
+            <p class="scalability torah-umesroh all-text-color">Voitex’s IVR system proved scalable, efficiently
+              handling the organization's growth and increasing call volume. </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="additional-utilization">
+      <div class="container">
+        <h2 class="all-text-color">Additional Utilizations</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="utilization">
+              <h5 class="all-text-color">1. Self-Test System/Program</h5>
+              <p class="torah-umesroh all-text-color">The client utilized Voitex’s integration with Google Sheets to
+                create self-assessment questionnaires and provide users with a comprehensive analysis based on their
+                answers.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="utilization">
+              <h5 class="all-text-color">2. Segmented Program Progress</h5>
+              <p class="torah-umesroh all-text-color">Voitex’s system allowed for a day-by-day program where users could
+                pick up where they left off, providing a personalized and efficient learning experience.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="utilization">
+              <h5 class="all-text-color">3. Unified Caller ID for Chassanim</h5>
+              <p class="torah-umesroh all-text-color">Ensuring seamless access, Voitex IVR assigns a consistent Caller
+                ID through a secure password system, recognizing them as a unified identity, regardless of the phone in
+                use.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="clients-feedback">
-    <div class="container feedback-container">
-        <h2 class="text-center" data-aos="fade-right" data-aos-duration="1500"><img src="./assets/img/voitex-images/stars-img.png" class="stars-image" alt="">Client's <span class="pink" > Feedback</span></h2>
-        <div class="row feedback-row" data-aos="fade-up" data-aos-duration="1500">
+    <div class="the-result detailed">
+      <div class="container-fluid">
+        <div class="container result-container">
+          <div class="row">
+            <div class="col-lg-7">
+              <h2 class="result-heading all-text-color">The Result
+              </h2>
+              <p class="result-paragraph torah-umesroh all-text-color">The Voitex IVR System has been nothing short of
+                transformative for Chassanim and husbands, surpassing our expectations and playing a pivotal role in
+                fulfilling our organization's mission—to improve and foster a harmonious 'Shalom Bayis' environment.
+              </p>
+              <p class="result-paragraph torah-umesroh all-text-color">
+                The tailored and user-friendly experience it offers has empowered Chassanim to sign up, access valuable
+                education whenever it suits them, learn, and grow at their own pace, contributing significantly to the
+                enhancement of their relationships.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <div class="image-wrapper result-image">
+                <img src="./assets/img/voitex-images/Group 1171275643.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clients-feedback">
+      <div class="container feedback-container">
+        <h2 class="text-center all-text-color">
+          <img
+            src="./assets/img/voitex-images/stars-img.png" class="stars-image " alt="">Client's <span class="pink">
+            Feedback</span></h2>
+        <div class="row feedback-row">
           <div class="testimonials">
-              <div class="client-review">
-                
-                      <p> <b>As a client of Voitex, I am thrilled to share my utmost satisfaction with their remarkable IVR system. Voitex has been a game-changer for our organization, </b></p>
+            <div class="client-review">
 
-                        <p>providing unparalleled flexibility, seamless membership setup, and personalized access surpassing expectations. Despite a learning curve, its adaptability quickly stood out. It outperformed alternatives, boosting operational efficiency. I highly recommend Voitex for a powerful IVR solution."</p>
-                      <h6><span class="text-bold">Yitzchok Binet</span> <br>
-                        Masoires Founder
-                        </h6>
-                        <div class="feedback-star">
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                        </div>
-                  
-              </div>
-              <div class="client-review">
-                  
-                <p> <b>As a client of Voitex, I am thrilled to share my utmost satisfaction with their remarkable IVR system. Voitex has been a game-changer  for our organization, </b></p>
+              <p class="all-text-color"><b>As a client of Voitex, I am thrilled to share my utmost satisfaction with
+                  their remarkable IVR system. Voitex has been a game-changer for our organization, </b></p>
 
-                  providing unparalleled flexibility, seamless membership setup, and personalized access surpassing expectations. Despite a learning curve, its adaptability quickly stood out. It outperformed alternatives, boosting operational efficiency. I highly recommend Voitex for a powerful IVR solution."</p>
-                <h6><span class="text-bold">Yitzchok Binet</span>  <br>
-                  Masoires Founder
-                  </h6>
-                  <div class="feedback-star">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </div>
-            
-                 
+              <p class="all-text-color">providing unparalleled flexibility, seamless membership setup, and personalized
+                access surpassing expectations. Despite a learning curve, its adaptability quickly stood out. It
+                outperformed alternatives, boosting operational efficiency. I highly recommend Voitex for a powerful IVR
+                solution."</p>
+              <h6 class="all-text-color"><span class="text-bold">Yitzchok Binet</span> <br>
+                Masoires Founder
+              </h6>
+              <div class="feedback-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
               </div>
-              <div class="client-review">
-              
-                <p> <b>As a client of Voitex, I am thrilled to share my utmost satisfaction with their remarkable IVR system. Voitex has been a game-changer  for our organization, </b></p>
 
-                  providing unparalleled flexibility, seamless membership setup, and personalized access surpassing expectations. Despite a learning curve, its adaptability quickly stood out. It outperformed alternatives, boosting operational efficiency. I highly recommend Voitex for a powerful IVR solution."</p>
-                <h6><span class="text-bold">Yitzchok Binet</span>  <br>
-                  Masoires Founder
-                  </h6>
-                  <div class="feedback-star">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </div>
-                  
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
-  <div class="conclusion" >
-    <div class="container">
-    <div class="row">
-        <div class="col-lg-7">
-            <h2>Conclusion</h2>
-            <p class="conclusion-paragraph"> <b> Voitex's IVR transformed Masoires'</b>  courses, providing unmatched flexibility and efficiency. With automated processes, precise access control, 
-                and seamless integration Chassanim and husbands are able to enhance their relationships. Yitzchok Binet's positive feedback reflects Voitex's commitment to excellence, inviting organizations to explore our powerful IVR solution.</p>
-        </div>
-        <div class="col-lg-5"  >
-            <div class="conclusion-image">
-                <img src="./assets/img/voitex-images/Group 1171275486.png" alt="">
             </div>
+            <div class="client-review">
+
+              <p class="all-text-color"> <b>As a client of Voitex, I am thrilled to share my utmost satisfaction with
+                  their remarkable IVR system. Voitex has been a game-changer for our organization, </b></p>
+
+              providing unparalleled flexibility, seamless membership setup, and personalized access surpassing
+              expectations. Despite a learning curve, its adaptability quickly stood out. It outperformed alternatives,
+              boosting operational efficiency. I highly recommend Voitex for a powerful IVR solution."</p>
+              <h6 class="all-text-color"><span class="text-bold">Yitzchok Binet</span> <br>
+                Masoires Founder
+              </h6>
+              <div class="feedback-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+
+
+            </div>
+            <div class="client-review">
+
+              <p class="all-text-color"> <b>As a client of Voitex, I am thrilled to share my utmost satisfaction with
+                  their remarkable IVR system. Voitex has been a game-changer for our organization, </b></p>
+
+              providing unparalleled flexibility, seamless membership setup, and personalized access surpassing
+              expectations. Despite a learning curve, its adaptability quickly stood out. It outperformed alternatives,
+              boosting operational efficiency. I highly recommend Voitex for a powerful IVR solution."</p>
+              <h6 class="all-text-color"><span class="text-bold">Yitzchok Binet</span> <br>
+                Masoires Founder
+              </h6>
+              <div class="feedback-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
-  </div>
-<div class="container case-study">
-  <h2>Read More Case Studies</h2>
-  <section class="center slider" data-aos="fade-up" data-aos-duration="1000">
-    <div>
-      <img src="./assets/img/voitex-images/donary.png" class="detailed-image" style="margin: auto;" >
-      <div class="content detailed">
-        <h4 class="case"> <i class="fa-solid fa-minus"></i>CASE STUDY</h4>
-        <h2 class="donary-detailed-heading">Donary Case Study</h2>
       </div>
     </div>
-    <div>
-      <img src="assets/img/voitex-images/donary2.png" class="detailed-image" style="margin: auto;" >
-      <div class="content detailed">
-        <h4 class="case"> <i class="fa-solid fa-minus"></i>CASE STUDY</h4>
-        <h2 class="donary-detailed-heading">Donary Case Study</h2>
+    <div class="conclusion">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2 class="all-text-color">Conclusion</h2>
+            <p class="conclusion-paragraph torah-umesroh all-text-color"> <b> Voitex's IVR transformed Masoires'</b>
+              courses, providing unmatched flexibility and efficiency. With automated processes, precise access control,
+              and seamless integration Chassanim and husbands are able to enhance their relationships. Yitzchok Binet's
+              positive feedback reflects Voitex's commitment to excellence, inviting organizations to explore our
+              powerful IVR solution.</p>
+          </div>
+          <div class="col-lg-5">
+            <div class="conclusion-image">
+              <img src="./assets/img/voitex-images/Group 1171275486.png" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div>
-      <img src="./assets/img/voitex-images/donary.png" class="detailed-image" style="margin: auto;" >
-      <div class="content detailed">
-        <h4 class="case"> <i class="fa-solid fa-minus"></i>CASE STUDY</h4>
-        <h2 class="donary-detailed-heading">Donary Case Study</h2>
-      </div>
+    <div class="container case-study">
+      <h2 class="all-text-color">Read More Case Studies</h2>
+      <section class="center slider">
+        <div>
+          <a href="https://donary.com/"><img src="./assets/img/voitex-images/donary.png" class="detailed-image" style="margin: auto;"></a>
+          <div class="content detailed">
+            <h4 class="case"> <i class="fa-solid fa-minus"></i>CASE STUDY</h4>
+            <h2 class="donary-detailed-heading all-text-color">Donary Case Study</h2>
+          </div>
+        </div>
+        <div>
+          <a href="https://arrivemonsey.com/"><img src="assets/img/voitex-images/donary2.png" class="detailed-image" style="margin: auto;"></a>
+          <div class="content detailed">
+            <h4 class="case"> <i class="fa-solid fa-minus"></i>CASE STUDY</h4>
+            <h2 class="donary-detailed-heading all-text-color">Donary Case Study</h2>
+          </div>
+        </div>
+        <!-- <div>
+          <img src="./assets/img/voitex-images/donary.png" class="detailed-image" style="margin: auto;">
+          <div class="content detailed">
+            <h4 class="case"> <i class="fa-solid fa-minus"></i>CASE STUDY</h4>
+            <h2 class="donary-detailed-heading all-text-color">Donary Case Study</h2>
+          </div> -->
+        </div>
+      </section>
     </div>
-  </section>
-    </div>
- 
-    <footer class="wrapper pattern-wrapper bg-image section-frame" >
+
+    <footer class="wrapper pattern-wrapper bg-image section-frame">
       <div class="container pb-13 pb-md-15">
-        <div class="card image-wrapper bg-full  overflow-hidden">
-         
+        <div class="card image-wrapper bg-full bg-image bg-overlay mt-n50p mx-md-5 rounded-xl overflow-hidden">
+
           <!--/.card-body -->
         </div>
         <!--/.card -->
-        <div class="text-inverse  mt-lg-0">
-          <div class="row gy-6 gy-lg-0 footer-row">
+        <div class="text-inverse mx-md-5 mt-n15 mt-lg-0">
+          <div class="row gy-6 gy-lg-0">
             <div class="col-lg-4">
               <div class="widget">
                 <div class="footer-image">
-                  <img src="./assets/img/voitex-images/footer-img.PNG" alt="">
+                  <a href="index.html"><img src="./assets/img/voitex-images/footer-img.PNG" alt=""></a>
                 </div>
                 <p class="mb-5 voitex">Voitex leverages your client database to create
                   more meaningful and profitable interactions
                   across all communications channels.</p>
-                <p class="mb-1 news-letter voitex-opacity">Sign up for our newsletter </p>
-                <div class="col-lg-7 mt-3  mb-3  ">
-                  <input type="email" class="form-control footer-form" placeholder="Your email">
-                  <button class="   button-submit" type="search">Submit</button>
-                </div>
-               
+                <!-- <p class="mb-1 news-letter voitex-opacity">Sign up for our newsletter </p> -->
+                <!-- <div class="col-lg-7 mt-3  mb-3">
+                              <input type="email" class="form-control footer-form" placeholder="Your email">
+                              <button class="   button-submit" type="search">Submit</button>
+                          </div> -->
+
               </div>
               <!-- /.widget -->
             </div>
+
             <!-- /column -->
-            <div class="col-md-4 col-lg-2 offset-lg-2">
-              <div class="widget">
-                <h4 class="widget-title text-white mb-3">Company</h4>
-                <ul class="list-unstyled text-reset mb-0">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Docs</a></li>
-                  <li><a href="#">Dev Support</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Log in</a></li>
-                </ul>
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!-- /column -->
-            <div class="col-md-4 col-lg-2">
+            <div class="col-4 col-lg-2 offset-lg-2">
               <div class="widget">
                 <h4 class="widget-title text-white mb-3">Solutions</h4>
                 <ul class="list-unstyled text-reset mb-0">
-                  <li><a href="#">IVR Branch</a></li>
-                  <li><a href="#">Hotlines</a></li>
-                  <li><a href="#">Dialer</a></li>
-                  <li><a href="#">SmartSMS</a></li>
-                  <li><a href="#">Telepay</a></li>
-                  <li><a href="#">FlexPBX</a></li>
-                  <li><a href="#">DID Trunking</a></li>
+                  <li><a href="index.html">Hotline</a></li>
+                  <li><a href="landing-pbx.html">PBX</a></li>
+                  <li><a href="Landingpage-sms.html">SMS</a></li>
+                  <li><a href="Landingpage-API.html">API</a></li>
                 </ul>
               </div>
               <!-- /.widget -->
             </div>
             <!-- /column -->
-            <div class="col-md-4 col-lg-2">
+            <div class="col-4 col-lg-2 footer-main-col">
               <div class="widget">
-                <h4 class="widget-title text-white mb-3">Industries</h4>
-                <ul class="list-unstyled text-reset  mb-0">
-                  <li><a href="#">Healthcare</a></li>
-                  <li><a href="#">Education</a></li>
-                  <li><a href="#">Technology</a></li>
-                  <li><a href="#">Finance</a></li>
-                  <li><a href="#">Retail</a></li>
-                  <li><a href="#">Real Estate</a></li>
-                  <li><a href="#">Nonprofit</a></li>
-                  <li><a href="#">Delivery</a></li>
+                <h4 class="widget-title text-white mb-3">Resources</h4>
+                <ul class="list-unstyled text-reset mb-0">
+                  <li><a href="voitex-blogs-main-page.html">Blogs</a></li>
+                  <li><a href="main-page.html">Success Stories</a></li>
+                  <li><a href="http://docs.voitex.com/">Knowledge Base</a></li>
+                  <li><a href="https://portal.voitex.com/login">Login</a></li>
                 </ul>
               </div>
               <!-- /.widget -->
             </div>
             <!-- /column -->
+            <div class="col-4 col-lg-2">
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">Company</h4>
+                <ul class="list-unstyled text-reset  mb-0">
+                  <li><a href="About-Us.html">About</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="Contact-Form.html">Contact</a></li>
+                </ul>
+              </div>
+              <!-- /.widget -->
+            </div>
+            <!-- /column -->
+
           </div>
           <!--/.row -->
+
+          <!-- SECOND ROW -->
+          <div class="row gy-6 gy-lg-0 mycustomrow">
+            <div class="col-lg-4">
+              <div class="widget">
+                <!-- <div class="footer-image">
+                          <img src="./assets/img/voitex-images/footer-img.PNG" alt="">
+                      </div> -->
+                <!-- <p class="mb-5 voitex">Voitex leverages your client database to create
+                          more meaningful and profitable interactions
+                          across all communications channels.</p> -->
+                <p class="mb-1 news-letter voitex-opacity">Sign up for our newsletter </p>
+                <div class="col-lg-7 mt-3  mb-3 newslettr">
+                  <input type="email" class="form-control footer-form" placeholder="Your email">
+                  <button class="   button-submit" type="search">Submit</button>
+                </div>
+              </div>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- END ROW -->
         </div>
       </div>
       <!-- /.container -->
     </footer>
-  
-      <script src="./assets/js/plugins.js"></script>
-      <script src="./assets/js/theme.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
-      <script>
-          $(document).ready(function () {
-              $('.testimonials').slick({
-                  infinite: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  autoplay: false,
-                  autoplaySpeed: 2000,
-                  responsive: [
-                      {
-                          breakpoint: 1024,
-                          settings: {
-                              slidesToShow: 1,
-                              slidesToScroll: 1,
-                              infinite: true,
-                              dots: true
-                          }
-                      },
-                      {
-                          breakpoint: 768,
-                          settings: {
-                              slidesToShow: 1,
-                              slidesToScroll: 1
-                          }
-                      },
-                      {
-                          breakpoint: 480,
-                          settings: {
-                              slidesToShow: 1,
-                              slidesToScroll: 1
-                          }
-                      }
-                      // Add more breakpoints and settings as needed
-                  ]
-              });
-          });
-      </script>
-       <script>
-          $(document).ready(function () {
+
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/theme.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('.testimonials').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // Add more breakpoints and settings as needed
+          ]
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
         $(".center").slick({
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 3,
-        responsive: [
+          dots: true,
+          infinite: true,
+          centerMode: true,
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          responsive: [
             {
               breakpoint: 1024,
               settings: {
@@ -543,7 +631,7 @@
             }
             // Add more breakpoints and settings as needed
           ]
-      });
+        });
 
         $('.slider').slick({
           infinite: true,
@@ -572,12 +660,12 @@
           ]
         });
         $('.autoplay').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
       });
     </script>
-  
-  </html>
+
+</html>
