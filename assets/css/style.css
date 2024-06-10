@@ -54061,19 +54061,21 @@ section#phone-system ul.telephone-specs-2 {
 @media only screen and (max-width:800px) {
   .mycustomrow {
     margin-top: unset !important;
-}
-footer button.button-submit {
-  height: 45px;
-  position: relative;
-  top: -45px;
-  border: 2px solid #6d6d6d;
-  background-color: #9854cb;
-  font-size: 15px;
-  color: white;
-  left: 153px;
-  border-radius: 10px;
-  padding: 5px 20px;
-}
+  }
+
+  footer button.button-submit {
+    height: 45px;
+    position: relative;
+    top: -45px;
+    border: 2px solid #6d6d6d;
+    background-color: #9854cb;
+    font-size: 15px;
+    color: white;
+    left: 153px;
+    border-radius: 10px;
+    padding: 5px 20px;
+  }
+
   .my-image-button img {
     top: -393px !important;
     right: 110px !important;
@@ -54132,14 +54134,17 @@ footer button.button-submit {
     left: unset !important;
     top: 0 !important;
     margin: 0 !important;
-}
+  }
+
   .newslettr {
     position: relative;
-}
+  }
+
   footer.wrapper input.form-control.footer-form {
     width: 100% !important;
     border-radius: 12px;
-}
+  }
+
   section.wrapper-pbx.overflow-hidden.landing-pbx {
     /* background: linear-gradient(316deg, rgba(21, 99, 175, 0.7) -13.14%, rgba(255, 255, 255, 0.7) 90.43%); */
   }
@@ -54188,9 +54193,11 @@ footer button.button-submit {
     background: linear-gradient(344deg, rgba(21, 99, 175, 0.7) -33.14%, rgba(255, 255, 255, 0.7) 98.43%);
     clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 75%, 0 80%);
   }
+
   #API-main-bg .header-image img {
     top: 30px;
   }
+
   #API-main-bg .header-padding {
     padding-bottom: 0;
   }
@@ -54505,13 +54512,14 @@ footer button.button-submit {
     margin-right: 0;
     display: table;
   }
+
   #sect-1 .image-wrapper img {
     top: 0;
   }
 
   #section-7 .card-wrapper {
     display: block;
-    margin: 15px 40px; 
+    margin: 15px 40px;
   }
 
   #sect-1 .btn-div button {
@@ -54519,9 +54527,11 @@ footer button.button-submit {
     border-radius: 15px;
     margin-left: 0;
   }
+
   #sect-1 .header-list {
     display: table;
   }
+
   div#innerrow-sec6 p.sec-6-paragraph {
     min-height: unset;
   }
@@ -55445,17 +55455,21 @@ button.demo-now {
   #section-6 .image-wrapper img {
     width: 27% !important;
   }
+
   #section-4 p {
     margin-top: 4rem;
   }
+
   #section-7 .pricing {
     display: flex;
-    margin-bottom:30px  !important;
+    margin-bottom: 30px !important;
     justify-content: center;
   }
+
   #section-7 .card-wrapper span {
     margin: 0;
   }
+
   /* #section-8 .btn-div .pink-btn,
   #section-8 .btn-div .purple-btn {
     font-size: 13px;
@@ -55892,14 +55906,16 @@ input.form-control.footer-form {
     bottom: 155px !important;
     left: 45% !important;
   }
-   footer .footer-main-col{
+
+  footer .footer-main-col {
     padding-left: 4px;
-   }
+  }
 
   .landing-page-sec-1 .pt-19 {
     padding-top: 6rem !important;
   }
-  .widget ul li a{
+
+  .widget ul li a {
     font-size: 14px;
   }
 
@@ -55970,38 +55986,43 @@ h2{
   color: #000 !important;
   padding-left: 0;
 }
-.navbar-collapse.offcanvas.offcanvas-nav.offcanvas-start .offcanvas-btn{
+
+.navbar-collapse.offcanvas.offcanvas-nav.offcanvas-start .offcanvas-btn {
   border: 1px solid #897ff9;
-    padding: 5px 20px;
-    transition: 0.5s;
-    color: #897ff9 !important;
-    font-weight: 500;
-    margin-bottom: 20px;
+  padding: 5px 20px;
+  transition: 0.5s;
+  color: #897ff9 !important;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
-.navbar-collapse.offcanvas.offcanvas-nav.offcanvas-start .offcanvas-btn-2{
+
+.navbar-collapse.offcanvas.offcanvas-nav.offcanvas-start .offcanvas-btn-2 {
   background: #897ff9;
   color: #fff !important;
   padding: 5px 35px;
   border: 3px solid #897ff9;
   transition: 0.5s;
 }
+
 .offcanvas-header.d-lg-none .btn-close:before {
   color: #000;
   font-size: 30px;
 }
 
-.font-500{
+.font-500 {
   font-weight: 500 !important;
 }
 
 .dropdown-toggle::after {
   font-weight: 500 !important;
 }
+
 /* -------Pricing-Plans-------- */
-#pricing-1{
+#pricing-1 {
   margin-bottom: 30px;
 }
-#Pricing-Nav .list-wrapper ul{
+
+#Pricing-Nav .list-wrapper ul {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
@@ -56009,90 +56030,182 @@ h2{
   align-items: center;
   margin-bottom: 0;
 }
-#Pricing-Nav .list-wrapper{
+
+#Pricing-Nav .list-wrapper {
   background-color: #F3F2FF;
   border-radius: 35px;
   padding: 0 20px;
 }
+
 #Pricing-Nav {
   margin-bottom: 30px;
 }
-#Pricing-Nav .Pricing-Nav-API{
+
+#Pricing-Nav .Pricing-Nav-API {
   padding: 5px 20px;
   border-radius: 35px;
   background-color: #fff;
   border: 1px solid #7367F0;
 }
-#Pricing-Nav .list-wrapper ul li p{
+
+#Pricing-Nav .list-wrapper ul li p {
   margin-bottom: 0;
   color: #7367F0;
   padding-left: 10px;
 }
-#Pricing-Nav .list-wrapper ul li a{
+
+#Pricing-Nav .list-wrapper ul li a {
   display: flex;
   align-items: center;
 }
-.Main-Background{
+
+.Main-Background {
   background: url(/assets/img/voitex-images/Pricing-backgroung.png) !important;
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
   width: 100%;
 }
-#pricing-2{
+
+#pricing-2 {
   margin-bottom: 30px;
 }
-#pricing-2 .pricing-sec-1-left{
+
+#pricing-2 .pricing-sec-1-left {
   display: flex;
   justify-content: end;
 }
-#pricing-2 .pricing-sec-1-right{
+
+#pricing-2 .pricing-sec-1-right {
   display: flex;
   justify-content: center;
 }
-#pricing-2 .two-btn-div{
+
+#pricing-2 .two-btn-div {
   display: flex;
 }
-#pricing-2 .two-btn-div a button{
+
+#pricing-2 .two-btn-div a button {
   color: #fff;
   padding: 5px 30px;
   border-radius: 5px;
   font-size: 16px;
 }
-#pricing-2 .two-btn-div a .btn-1{
+
+#pricing-2 .two-btn-div a .btn-1 {
   background-color: #7367F0;
   margin-left: 0;
 }
-#pricing-2 .two-btn-div a .btn-2{
+
+#pricing-2 .two-btn-div a .btn-2 {
   background-color: #F8AF00;
 }
-#pricing-3 .row{
+
+#pricing-3 .row {
   justify-content: center;
 }
-#pricing-3 h4 button{
+
+#pricing-3 h4 button {
   font-size: 16px;
   padding-left: 0;
   display: flex;
   width: 100%;
 }
-#pricing-3 h4{
+
+#pricing-3 h4 {
   margin: 10px 0;
 }
-#pricing-3 p{
+
+#pricing-3 p {
   font-size: 12px;
   margin: 0 5px;
   color: #8E8E8E;
 }
-#pricing-3 .accordion-item{
+
+#pricing-3 .accordion-item {
   border-top: 2px solid #E2E2E2;
 }
-#pricing-3 .pricing-FAQ-heading-p{
+
+#pricing-3 .pricing-FAQ-heading-p {
   color: #000;
   font-size: 16px;
   margin-bottom: 20px;
 }
-#pricing-3 h2{
+
+#pricing-3 h2 {
   font-size: 36px;
 }
-#pricing-3{
+
+#pricing-3 {
   margin-bottom: 30px;
 }
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1440px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1400px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1366px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1280px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1240px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+  #pricing-3 h4 button {
+    font-size: 14px;
+  }
+
+  #pricing-2 br {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 800px) {
+  #pricing-2 .two-btn-div a button {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  #Pricing-Nav .list-wrapper ul {
+    display: table;
+    width: 100%;
+  }
+
+  #Pricing-Nav .list-wrapper ul li a {
+    justify-content: center;
+  }
+
+  #Pricing-Nav li {
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  #pricing-2 .pricing-sec-1-right {
+    margin-top: 40px;
+  }
+
+  #pricing-2 .two-btn-div {
+    justify-content: center;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 480px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 414px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 375px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 360px) {}
