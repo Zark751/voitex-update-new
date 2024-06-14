@@ -56017,7 +56017,7 @@ h2{
   font-weight: 500 !important;
 }
 
-/* -------Pricing-Plans-------- */
+/* -------Pricing-Plans-API-------- */
 #pricing-1 {
   margin-bottom: 30px;
 }
@@ -56059,12 +56059,10 @@ h2{
   align-items: center;
 }
 
-.Main-Background {
-  background: url(/assets/img/voitex-images/Pricing-backgroung.png) !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% 100% !important;
-  width: 100%;
-}
+/* .dropdown-toggle::after {
+  height: unset;
+  width: unset;
+} */
 
 #pricing-2 {
   margin-bottom: 30px;
@@ -56083,7 +56081,13 @@ h2{
 #pricing-2 .two-btn-div {
   display: flex;
 }
-
+section#pricing-2:before {
+  content: url(/assets/img/voitex-images/Pricing-backgroung.png) !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
 #pricing-2 .two-btn-div a button {
   color: #fff;
   padding: 5px 30px;
@@ -56122,7 +56126,9 @@ h2{
 }
 
 #pricing-3 .accordion-item {
-  border-top: 2px solid #E2E2E2;
+  border-top: 2px solid #E2E2E2 !important;
+  border: unset;
+  border-radius: unset;
 }
 
 #pricing-3 .pricing-FAQ-heading-p {
@@ -56137,6 +56143,63 @@ h2{
 
 #pricing-3 {
   margin-bottom: 30px;
+}
+
+#pricing-4 {
+  margin-bottom: 30px;
+}
+
+#pricing-4 .card-wrapper {
+  padding: 70px;
+}
+
+#pricing-4 .container {
+  background-color: #F8F9FA;
+  border-radius: 15px;
+}
+.nav-tabs {
+  background-color: #F3F2FF;
+  border-radius: 30px;
+  border-width: unset;
+}
+.nav-tabs .nav-link.active{
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs .nav-link {
+  background-color: #F3F2FF;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-tabs .nav-link p{
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+.nav-tabs {
+  --bs-nav-tabs-border-width: unset
+}
+#pricing-4 .two-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+#pricing-4 .two-btn-div .btn-div a button {
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#pricing-4 .two-btn-div .btn-div a .btn-1 {
+  color: #EB1781;
+  border: 2px solid #EB1781;
+}
+
+#pricing-4 .two-btn-div .btn-div a .btn-2 {
+  color: #7367F0;
+  border: 2px solid #7367F0;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -56173,6 +56236,7 @@ h2{
   }
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 600px) {
   #Pricing-Nav .list-wrapper ul {
     display: table;
@@ -56188,6 +56252,7 @@ h2{
   }
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 575px) {
   #pricing-2 .pricing-sec-1-right {
     margin-top: 40px;
@@ -56209,3 +56274,448 @@ h2{
 
 /*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 360px) {}
+
+/* -------Pricing-Plans-Custom-------- */
+
+#Pricing-Nav-Custom .list-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#Pricing-Nav-Custom .list-wrapper {
+  background-color: #F3F2FF;
+  border-radius: 35px;
+  padding: 0 0 0 20px;
+}
+
+#Pricing-Nav-Custom {
+  margin-bottom: 30px;
+}
+
+#Pricing-Nav-Custom .Pricing-Nav-Custom {
+  padding: 5px 20px;
+  border-radius: 35px;
+  background-color: #fff;
+  border: 1px solid #7367F0;
+}
+
+#Pricing-Nav-Custom .list-wrapper ul li p {
+  margin-bottom: 0;
+  color: #7367F0;
+  padding-left: 10px;
+}
+
+#Pricing-Nav-Custom .list-wrapper ul li a {
+  display: flex;
+  align-items: center;
+}
+
+.pricing-custom-padding-class {
+  padding: 0 !important;
+}
+
+.Custom-Pricing-img {
+  width: 70%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1440px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1400px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1366px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1280px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1240px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+  #pricing-3 h4 button {
+    font-size: 14px;
+  }
+
+  #pricing-2 br {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 800px) {
+  #pricing-2 .two-btn-div a button {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 600px) {
+  #Pricing-Nav-Custom .list-wrapper ul {
+    display: table;
+    width: 100%;
+  }
+
+  #Pricing-Nav-Custom .list-wrapper ul li a {
+    justify-content: center;
+  }
+
+  #Pricing-Nav-Custom li {
+    padding: 5px 20px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 575px) {
+  #pricing-2 .pricing-sec-1-right {
+    margin-top: 40px;
+  }
+
+  #pricing-2 .two-btn-div {
+    justify-content: center;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 480px) {
+  #pricing-4 .card-wrapper {
+    padding: 35px 0 !important;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 414px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 375px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 360px) {}
+
+/* -------Pricing-Plans-SMS-------- */
+
+#Pricing-Nav-SMS .list-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#Pricing-Nav-SMS .list-wrapper {
+  background-color: #F3F2FF;
+  border-radius: 35px;
+  padding: 0 20px 0 20px;
+}
+
+#Pricing-Nav-SMS {
+  margin-bottom: 30px;
+}
+
+#Pricing-Nav-SMS .Pricing-Nav-SMS {
+  padding: 5px 20px;
+  border-radius: 35px;
+  background-color: #fff;
+  border: 1px solid #7367F0;
+}
+
+#Pricing-Nav-SMS .list-wrapper ul li p {
+  margin-bottom: 0;
+  color: #7367F0;
+  padding-left: 10px;
+}
+
+#Pricing-Nav-SMS .list-wrapper ul li a {
+  display: flex;
+  align-items: center;
+}
+
+.pricing-custom-padding-class {
+  padding: 0 !important;
+}
+
+#SMS-table .check-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+  padding: 20px 0;
+}
+
+.last-row-padding {
+  padding: 39px 0;
+}
+
+#SMS-table .row {
+  margin-bottom: 5px;
+  align-items: start !important;
+}
+
+#SMS-table .accordion-item button {
+  background-color: #F7F7F7;
+  padding: 13px 10px;
+  transition: 0.3s;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+}
+
+#SMS-table .accordion-item button:active,
+.myDiv:active {
+  background-color: #F3F2FF;
+}
+
+.table-col-padding {
+  padding-right: 0;
+}
+
+.table-col-1-padding {
+  padding-right: 5px;
+}
+
+#SMS-table .accordion-body p {
+  margin-left: 5px;
+  padding: 0 10px;
+}
+
+#SMS-table .accordion-header button {
+  margin: 0;
+}
+
+#SMS-table .head-card-wrapper {
+  background-color: #F7F7F7;
+  padding: 10px 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+#SMS-table .head-card-wrapper-first {
+  background-color: #F7F7F7;
+  padding: 10px 10px;
+}
+#SMS-table .head-card-wrapper .bi::before{
+  color: #3abd65;
+}
+#SMS-table .head-card-wrapper-3 .book-marker{
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+#SMS-table .head-card-wrapper-3 .book-marker i{
+  position: absolute;
+}
+#SMS-table .head-card-wrapper-1 {
+  border-top: 10px solid #76D193;
+}
+
+#SMS-table .head-card-wrapper-2 {
+  border-top: 10px solid #46A063;
+}
+
+#SMS-table .head-card-wrapper-3 {
+  border-top: 10px solid #238844;
+}
+
+#SMS-table .Pricing-plan-sms-top {
+  font-size: 36px !important;
+}
+
+#SMS-table .head-card-wrapper span {
+  font-size: 18px;
+}
+
+#SMS-table .btn-div button {
+  font-size: 16px;
+  padding: 5px 30px;
+  border: 2px solid #7367F0;
+  border-radius: 10px;
+  color: #7367F0;
+  transition: 0.3s;
+}
+#SMS-table .btn-div{
+  padding-bottom: 36px;
+}
+#SMS-table .head-card-wrapper:hover {
+  background-color: #E1FFEA;
+}
+
+#SMS-table .head-card-wrapper:hover button {
+  background-color: #7367F0;
+  color: #fff;
+}
+#SMS-table{
+  margin-bottom: 30px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1440px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1400px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1366px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1280px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1240px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+  #pricing-3 h4 button {
+    font-size: 14px;
+  }
+
+  #pricing-2 br {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 800px) {
+  #pricing-2 .two-btn-div a button {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 600px) {
+  #Pricing-Nav-SMS .list-wrapper ul {
+    display: table;
+    width: 100%;
+  }
+
+  #Pricing-Nav-SMS .list-wrapper ul li a {
+    justify-content: center;
+  }
+
+  #Pricing-Nav-SMS li {
+    padding: 5px 20px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 575px) {
+  #pricing-2 .pricing-sec-1-right {
+    margin-top: 40px;
+  }
+
+  #pricing-2 .two-btn-div {
+    justify-content: center;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 480px) {
+  #pricing-4 .card-wrapper {
+    padding: 35px 10px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 414px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 375px) {}
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 360px) {}
+
+
+/* ------Pricing-PBX-------- */
+#PBX-table .row{
+  justify-content: center;
+}
+#PBX-table .row .promo-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DEEFFF;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+#PBX-table .row .promo-wrapper .text-wrapper p{
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+#PBX-table .accordion-item button {
+  background-color: #F7F7F7;
+  padding: 13px 10px;
+  transition: 0.3s;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  justify-content: space-between;
+}
+#PBX-table .check-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+  padding: 20px 0;
+}
+#PBX-table .pbx-header-wrapper-1 {
+  background-color: #F7F7F7;
+  padding: 10px 10px;
+}
+#PBX-table .pbx-header-wrapper-2 {
+  border-top: 10px solid #1563AF;
+  background-color: #F7F7F7;
+  padding: 0 10px;
+  text-align: center;
+  transition: 0.3s
+}
+#PBX-table .pbx-header-wrapper-3 {
+  border-top: 10px solid #3C94EA;
+  background-color: #F7F7F7;
+  padding: 0 10px;
+  text-align: center;
+  transition: 0.3s
+}
+#PBX-table .pbx-header-wrapper-2:hover,#PBX-table .pbx-header-wrapper-3:hover{
+  background-color: #DEEFFF;
+}
+#PBX-table .btn-div button {
+  font-size: 16px;
+  padding: 5px 30px;
+  border: 2px solid rgb(115, 103, 240);
+  border-radius: 10px;
+  color: rgb(115, 103, 240);
+  transition: all 0.3s ease 0s;
+}
+#PBX-table .pbx-header-wrapper-2 .text-wrapper a,#PBX-table .pbx-header-wrapper-3 .text-wrapper a{
+  color: #368BFF;
+  text-decoration: underline;
+} 
+#PBX-table .PBX-row2-col2 {
+  background-color: #F7F7F7;
+}
+#PBX-table .PBX-row2-col3 {
+  background-color: #F7F7F7;
+}
+#PBX-table .PBX-row3-col2 {
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 10px;
+}
+#PBX-table .PBX-row3-col2 p{
+  margin-bottom: 0;
+  font-size: 16px;
+}
+#PBX-table .PBX-row3-col3 {
+  background-color: #F7F7F7;
+}
